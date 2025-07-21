@@ -1,4 +1,4 @@
-package Exercicios_Set.Ordenacao;
+package Exercicios_Set.Pesquisa;
 
 public class Contato {
     

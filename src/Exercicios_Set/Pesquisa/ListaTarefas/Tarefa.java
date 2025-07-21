@@ -1,4 +1,4 @@
-package Exercicios_Set.Ordenacao.ListaTarefas;
+package Exercicios_Set.Pesquisa.ListaTarefas;
 
 public class Tarefa {
     

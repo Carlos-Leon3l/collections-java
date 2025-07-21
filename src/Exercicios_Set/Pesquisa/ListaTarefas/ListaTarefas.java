@@ -1,4 +1,4 @@
-package Exercicios_Set.Ordenacao.ListaTarefas;
+package Exercicios_Set.Pesquisa.ListaTarefas;
 
 import java.util.HashSet;
 import java.util.Scanner;

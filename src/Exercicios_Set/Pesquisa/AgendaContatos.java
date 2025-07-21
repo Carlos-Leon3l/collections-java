@@ -1,4 +1,4 @@
-package Exercicios_Set.Ordenacao;
+package Exercicios_Set.Pesquisa;
 
 import java.util.HashSet;
 import java.util.Scanner;
