@@ -49,7 +49,6 @@ public class Dicionario {
 
         while (true) {
             // Exibe o menu de opções de teste
-            System.out.println("\n===== MENU DE TESTES =====");
             System.out.println("1: Adicionar 'python'");
             System.out.println("2: Remover 'typescript'");
             System.out.println("3: Pesquisar 'java'");

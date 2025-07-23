@@ -1,18 +1,15 @@
 package Exercicios_Map.Ordenacao.AgendaDeEventos;
 
-import java.time.LocalDate;
-
 public class Evento {
     
-    private LocalDate data;
     private String nome;
     private String atracao;
 
     
-    public LocalDate getData() {
-        return data;
+    @Override
+    public String toString() {
+        return "Evento { nome=" + nome + ", atracao=" + atracao + " }";
     }
-
 
     public String getNome() {
         return nome;
@@ -24,8 +21,7 @@ public class Evento {
     }
 
 
-    public Evento(LocalDate data, String nome, String atracao) {
-        this.data = data;
+    public Evento(String nome, String atracao) {
         this.nome = nome;
         this.atracao = atracao;
     }

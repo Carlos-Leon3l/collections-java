@@ -47,7 +47,6 @@ public class AgendaContatos {
 
         while (true) {
             // Exibe o menu de opções de teste
-            System.out.println("\n===== MENU DE TESTES - AGENDA =====");
             System.out.println("1: Adicionar 'Pedro'");
             System.out.println("2: Remover 'Maria'");
             System.out.println("3: Pesquisar 'João'");

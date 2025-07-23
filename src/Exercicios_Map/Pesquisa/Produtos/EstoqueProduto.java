@@ -76,10 +76,8 @@ public class EstoqueProduto {
     public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
         EstoqueProduto estoque = new EstoqueProduto();
-        boolean produtosAdicionados = false;
 
         while (true) {
-            System.out.println("\n===== MENU DE TESTES - ESTOQUE =====");
             System.out.println("1: Adicionar produtos iniciais");
             System.out.println("2: Exibir produtos");
             System.out.println("3: Calcular valor total do estoque");
@@ -92,17 +90,13 @@ public class EstoqueProduto {
             int opcao = scanner.nextInt();
 
             if (opcao == 1) {
-                if (!produtosAdicionados) {
-                    System.out.println("-> Adicionando produtos iniciais...");
-                    estoque.adicionarProduto(1L, "Notebook", 1, 1500.0);
-                    estoque.adicionarProduto(2L, "Mouse", 5, 25.0);
-                    estoque.adicionarProduto(3L, "Monitor", 10, 400.0);
-                    estoque.adicionarProduto(4L, "Teclado", 2, 40.0);
-                    System.out.println("Produtos adicionados.");
-                    produtosAdicionados = true;
-                } else {
-                    System.out.println("Os produtos iniciais já foram adicionados.");
-                }
+                System.out.println("-> Adicionando produtos iniciais...");
+                estoque.adicionarProduto(1L, "Notebook", 1, 1500.0);
+                estoque.adicionarProduto(2L, "Mouse", 5, 25.0);
+                estoque.adicionarProduto(3L, "Monitor", 10, 400.0);
+                estoque.adicionarProduto(4L, "Teclado", 2, 40.0);
+                System.out.println("Produtos adicionados.");
+               
 
             } else if (opcao == 2) {
                 System.out.println("-> Testando Exibição...");
